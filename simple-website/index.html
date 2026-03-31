@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio - ArunKumr</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+</head>
+<body data-theme="light">
+    <!-- Theme toggle button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="sun"></span>
+        <span class="moon"></span>
+    </button>
+
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">
+                Hi, I&#39;m <span class="gradient-text">Arun Kumar k</span>
+            </h1>
+            <p class="hero-subtitle">
+                Full Stack  Python Developer crafting beautiful, performant web experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#services" class="btn btn-secondary">View Work</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="text-block">
+                    <p>
+                        Passionate developer with 5+ years experience in modern web technologies.
+                        Specializing in React, Node.js, and pixel-perfect UI/UX design.
+                    </p>
+                    <p>
+                        I believe in writing clean, scalable code and creating experiences that delight users.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill"><span>HTML</span></div>
+                    <div class="skill"><span>CSS</span></div>
+                    <div class="skill"><span>JavaScript</span></div>
+                    <div class="skill"><span>Python</span></div>
+                    <div class="skill"><span>Django</span></div>
+                    <div class="skill"><span>AL/ML</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Beautiful, responsive designs that work on any device.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚛️</div>
+                    <h3>Frontend Dev</h3>
+                    <p>React &amp; Vanilla JS applications with smooth interactions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Backend Dev</h3>
+                    <p>Node.js APIs, databases, and scalable server solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Let&#39;s Connect</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group full-width">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&amp;copy; 2024 John Doe. Made with <span class="love">❤️</span>.</p>
+        </div>
+    </footer>
+
+<script src="script-clean.js"></script>
+</body>
+</html>
+
